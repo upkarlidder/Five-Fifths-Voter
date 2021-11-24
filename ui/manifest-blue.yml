@@ -2,6 +2,5 @@
 applications:
   - name: ((name))
     memory: ((memory))
-    path: ((path))
     buildpacks:
       - https://github.com/cloudfoundry/nginx-buildpack
