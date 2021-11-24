@@ -2,6 +2,7 @@
 applications:
   - name: ((name))
     memory: ((memory))
+    path: ((path))
     command: ./production-start.sh
     #command: yarn start
     buildpacks:
